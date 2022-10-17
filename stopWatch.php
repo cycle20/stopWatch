@@ -33,12 +33,12 @@ function printItem(array $entry, float|false $delta = false): void {
     }
 }
 
-splitTime(__FILE__, __FUNCTION__, __LINE__); sleep(1);
-splitTime(__FILE__, __FUNCTION__, __LINE__); sleep(3);
-splitTime(__FILE__, __FUNCTION__, __LINE__); sleep(1);
-splitTime(__FILE__, __FUNCTION__, __LINE__); sleep(2);
-splitTime(__FILE__, __FUNCTION__, __LINE__); sleep(1);
-
-print_r($timeEntries);
-stopWatchReport();
+// splitTime(__FILE__, __FUNCTION__, __LINE__); sleep(1);
+// splitTime(__FILE__, __FUNCTION__, __LINE__); sleep(3);
+// splitTime(__FILE__, __FUNCTION__, __LINE__); sleep(1);
+// splitTime(__FILE__, __FUNCTION__, __LINE__); sleep(2);
+// splitTime(__FILE__, __FUNCTION__, __LINE__); sleep(1);
+//
+// print_r($timeEntries);
+// stopWatchReport();
 
